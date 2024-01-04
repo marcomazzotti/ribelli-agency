@@ -1,0 +1,40 @@
+a {
+  color: white !important;
+}
+
+.color {
+  color: rgb(237, 255, 77) !important;
+}
+
+a:hover {
+  color: rgb(237, 255, 77) !important;
+}
+
+.custom-navbar-toggler {
+  background-color: white !important;
+  color: black !important;
+}
+
+@media (max-width: 990px) {
+  .navbar-brand img {
+    max-width: 150px;
+  }
+
+  .horizontal-menu .navbar-nav {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+  }
+
+  .horizontal-menu .nav-item {
+    margin: 0 !important;
+  }
+
+  .horizontal-menu .nav-link {
+    padding: 0.5rem 1rem !important;
+  }
+
+  .navbar-brand img {
+    margin-left: 0;
+  }
+}
