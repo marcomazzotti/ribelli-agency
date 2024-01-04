@@ -9,6 +9,7 @@ import { JumboComponent } from './home/jumbo/jumbo.component';
 import { ChiSiamoComponent } from './home/chi-siamo/chi-siamo.component';
 import { CosaFacciamoComponent } from './home/cosa-facciamo/cosa-facciamo.component';
 import { ProgettiComponent } from './home/progetti/progetti.component';
+import { LavoratoConComponent } from './home/lavorato-con/lavorato-con.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProgettiComponent } from './home/progetti/progetti.component';
     JumboComponent,
     ChiSiamoComponent,
     CosaFacciamoComponent,
-    ProgettiComponent
+    ProgettiComponent,
+    LavoratoConComponent
   ],
   imports: [
     BrowserModule,
