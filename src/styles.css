@@ -11,3 +11,10 @@ a {
 .wrapper {
   background-color: black;
 }
+
+@media screen and (max-width: 768px) {
+  .container-fluid-cs {
+    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
+  }
+}

@@ -3,6 +3,16 @@
   color: white;
 }
 
+.container-fluid-cs {
+  padding-top: 12rem;
+  padding-bottom: 5rem;
+}
+
+.col-12 h1 {
+  font-weight: 300;
+  font-size: 6rem;
+}
+
 .arrow {
   background-color: white;
   color: black;
@@ -26,5 +36,20 @@
 
   50% {
     transform: translateY(-20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-fluid-cs {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+  }
+
+  .col-12 h1 {
+    font-size: 4rem;
+  }
+
+  #mano {
+    display: none;
   }
 }
