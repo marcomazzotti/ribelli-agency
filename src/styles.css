@@ -1,8 +1,13 @@
 a {
   color: inherit;
+  cursor: pointer;
 }
 
-.container {
-  margin-left: 1.5rem !important;
-  margin-right: 1.5rem !important;
+.container-fluid-cs {
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+}
+
+.wrapper {
+  background-color: black;
 }

@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { JumboComponent } from './home/jumbo/jumbo.component';
+import { ChiSiamoComponent } from './home/chi-siamo/chi-siamo.component';
+import { CosaFacciamoComponent } from './home/cosa-facciamo/cosa-facciamo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    JumboComponent
+    JumboComponent,
+    ChiSiamoComponent,
+    CosaFacciamoComponent
   ],
   imports: [
     BrowserModule,
