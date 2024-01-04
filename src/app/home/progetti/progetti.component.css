@@ -24,6 +24,21 @@
   border-radius: 50px;
 }
 
+.container-fluid-cs {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: white;
+}
+
+.agency {
+  max-width: 60%;
+}
+
+.style {
+  max-height: 150px;
+  max-width: 100%;
+}
+
 @keyframes bounce {
 
   0%,
@@ -33,5 +48,19 @@
 
   50% {
     transform: translateY(-20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tipo {
+    margin-top: 2rem;
+  }
+
+  .row {
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
