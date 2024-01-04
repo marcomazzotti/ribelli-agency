@@ -23,3 +23,17 @@
     transform: translateY(-20px);
   }
 }
+
+.servizi p {
+  display: none;
+}
+
+.servizi h4:hover+p {
+  display: block;
+  font-size: 1.3rem;
+}
+
+.servizi h4:hover {
+  color: rgb(237, 255, 77);
+  cursor: pointer;
+}
