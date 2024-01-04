@@ -1,0 +1,15 @@
+.div {
+  max-width: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .div {
+    max-width: 30%;
+  }
+
+  p {
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin-top: 1.5rem;
+  }
+}

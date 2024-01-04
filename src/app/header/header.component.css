@@ -15,9 +15,19 @@ a:hover {
   color: black !important;
 }
 
+.container-fluid {
+  margin-left: 0.8rem !important;
+  margin-right: 0.8rem !important;
+}
+
+.navbar-brand img {
+  max-width: 200px;
+}
+
 @media (max-width: 990px) {
   .navbar-brand img {
-    max-width: 150px;
+    max-width: 100px;
+    margin-left: 0;
   }
 
   .horizontal-menu .navbar-nav {
@@ -30,11 +40,14 @@ a:hover {
     margin: 0 !important;
   }
 
-  .horizontal-menu .nav-link {
+  /* .horizontal-menu .nav-link {
     padding: 0.5rem 1rem !important;
-  }
+  } */
+}
 
-  .navbar-brand img {
+@media screen and (max-width: 768px) {
+  .container-fluid {
     margin-left: 0;
+    margin-right: 0;
   }
 }
