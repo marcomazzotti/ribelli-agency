@@ -3,15 +3,16 @@
     <hr>
     <h1>COSA FACCIAMO</h1>
     <div class="d-flex align-items-center justify-content-center flex-column servizi">
-      <h4 style="font-size: 6rem;">Social Media</h4>
-      <p>Costruiamo strategia per rendere efficaci i tuoi social.</p>
-      <h4 style="font-size: 6rem;">Content Marketing</h4>
-      <p>Ti affianchiamo nella creazione di contenuti efficaci per la tua azienda, occupandoci di tutto il processo di
+      <h4 style="font-size: 6rem;" (click)="showSocial = true">Social Media</h4>
+      <p *ngIf="showSocial">Costruiamo strategia per rendere efficaci i tuoi social.</p>
+      <h4 style="font-size: 6rem;" (click)="showContent = true">Content Marketing</h4>
+      <p *ngIf="showContent">Ti affianchiamo nella creazione di contenuti efficaci per la tua azienda, occupandoci di
+        tutto il processo di
         esecuzione.</p>
-      <h4 style="font-size: 6rem;">Podcast Production</h4>
-      <p>Ti supportiamo nella costruzione di campagne marketing sui social.</p>
-      <h4 style="font-size: 6rem;">Digital Marketing</h4>
-      <p>Da un po’ di tempo sogni di fare un podcast, che aspetti contattaci subito!</p>
+      <h4 style="font-size: 6rem;" (click)="showPodcast = true">Podcast Production</h4>
+      <p *ngIf="showPodcast">Ti supportiamo nella costruzione di campagne marketing sui social.</p>
+      <h4 style="font-size: 6rem;" (click)="showDigital = true">Digital Marketing</h4>
+      <p *ngIf="showDigital">Da un po’ di tempo sogni di fare un podcast, che aspetti contattaci subito!</p>
     </div>
   </div>
   <div class="d-flex align-items-center justify-content-center">
