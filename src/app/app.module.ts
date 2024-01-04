@@ -10,6 +10,8 @@ import { ChiSiamoComponent } from './home/chi-siamo/chi-siamo.component';
 import { CosaFacciamoComponent } from './home/cosa-facciamo/cosa-facciamo.component';
 import { ProgettiComponent } from './home/progetti/progetti.component';
 import { LavoratoConComponent } from './home/lavorato-con/lavorato-con.component';
+import { ContattiComponent } from './home/contatti/contatti.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { LavoratoConComponent } from './home/lavorato-con/lavorato-con.component
     ChiSiamoComponent,
     CosaFacciamoComponent,
     ProgettiComponent,
-    LavoratoConComponent
+    LavoratoConComponent,
+    ContattiComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
