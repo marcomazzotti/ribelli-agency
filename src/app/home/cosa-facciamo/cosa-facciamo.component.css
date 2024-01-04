@@ -12,6 +12,21 @@
   animation: bounce 1s infinite;
 }
 
+.container-fluid-cs {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: white;
+}
+
+.servizi h4:hover {
+  color: rgb(237, 255, 77);
+  cursor: pointer;
+}
+
+.servizi h4 {
+  font-size: 6rem;
+}
+
 @keyframes bounce {
 
   0%,
@@ -24,16 +39,22 @@
   }
 }
 
-/* .servizi p {
-  display: none;
-}
+@media screen and (max-width: 768px) {
+  .container-fluid-cs h4 {
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-top: 1.5rem;
+  }
 
-.servizi h4:hover+p {
-  display: block;
-  font-size: 1.3rem;
-} */
+  .container-fluid-cs p {
+    text-align: center;
+  }
 
-.servizi h4:hover {
-  color: rgb(237, 255, 77);
-  cursor: pointer;
+  .col-12 h1 {
+    font-size: 4rem;
+  }
+
+  #mano {
+    display: none;
+  }
 }
