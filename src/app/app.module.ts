@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { JumboComponent } from './home/jumbo/jumbo.component';
 import { ChiSiamoComponent } from './home/chi-siamo/chi-siamo.component';
 import { CosaFacciamoComponent } from './home/cosa-facciamo/cosa-facciamo.component';
+import { ProgettiComponent } from './home/progetti/progetti.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CosaFacciamoComponent } from './home/cosa-facciamo/cosa-facciamo.compon
     HomeComponent,
     JumboComponent,
     ChiSiamoComponent,
-    CosaFacciamoComponent
+    CosaFacciamoComponent,
+    ProgettiComponent
   ],
   imports: [
     BrowserModule,
