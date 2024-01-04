@@ -12,6 +12,7 @@ import { ProgettiComponent } from './home/progetti/progetti.component';
 import { LavoratoConComponent } from './home/lavorato-con/lavorato-con.component';
 import { ContattiComponent } from './home/contatti/contatti.component';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FormsModule } from '@angular/forms';
     CosaFacciamoComponent,
     ProgettiComponent,
     LavoratoConComponent,
-    ContattiComponent
+    ContattiComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
