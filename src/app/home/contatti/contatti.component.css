@@ -11,6 +11,36 @@
   font-weight: 200;
 }
 
+.container-fluid-cs {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: white;
+}
+
+.container-fluid-cs p {
+  font-size: 6rem;
+  line-height: 1.1;
+}
+
+.arrow {
+  display: inline-block;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  animation: moveUpDown 1s infinite alternate;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .col-sm-3 h2 {
     font-size: 1.5rem;
