@@ -1,0 +1,95 @@
+.arrow {
+  background-color: white;
+  color: black;
+  border-radius: 60%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  animation: bounce 1s infinite;
+}
+
+.card-cs {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.tipo {
+  border: 1px solid white;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.container-fluid-cs {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: white;
+}
+
+.agency {
+  max-width: 60%;
+}
+
+.style {
+  max-height: 150px;
+  max-width: 100%;
+}
+
+.container-fluid-cs {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: white;
+}
+
+.container-fluid-cs .special {
+  font-size: 6rem;
+  line-height: 1.1;
+}
+
+a:hover {
+  color: rgb(237, 255, 77);
+}
+
+.arrow {
+  background-color: white;
+  color: black;
+  border-radius: 60%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tipo {
+    margin-top: 2rem;
+  }
+
+  .row {
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
